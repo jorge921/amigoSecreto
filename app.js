@@ -11,7 +11,7 @@ function agregarAmigo() {
     if (nombre) {
         amigos.push(nombre);
         actualizarLista();
-        input.value = ""; // Limpia el campo de texto
+        input.value = "";
     } else {
         alert("Ingrese un nombre válido.");
     }
